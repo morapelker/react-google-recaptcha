@@ -1,5 +1,5 @@
 {
-  "name": "react-google-recaptcha",
+  "name": "tedooo-google-recaptcha",
   "version": "2.1.1",
   "description": "React Component Wrapper for Google reCAPTCHA",
   "main": "lib/index.js",
