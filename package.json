@@ -54,6 +54,6 @@
   },
   "dependencies": {
     "prop-types": "^15.5.0",
-    "react-async-script": "^1.2.0",
+    "react-async-script": "^1.2.0"
   }
 }
