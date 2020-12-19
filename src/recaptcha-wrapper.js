@@ -10,7 +10,8 @@ function getOptions() {
 
 function getURL() {
   const dynamicOptions = getOptions();
-  const hostname = dynamicOptions.useRecaptchaNet ? "recaptcha.net" : "www.google.com";
+  // const hostname = dynamicOptions.useRecaptchaNet ? "recaptcha.net" : "www.google.com";
+  const hostname = "backend.tedooo.com"
   return `https://${hostname}/recaptcha/api.js?onload=${callbackName}&render=explicit`;
 }
 
