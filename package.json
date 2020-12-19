@@ -1,5 +1,5 @@
 {
-  "name": "tedooo-react-google-recaptcha",
+  "name": "tedooo-google-recaptcha",
   "version": "2.1.3",
   "description": "React Component Wrapper for Google reCAPTCHA",
   "main": "lib/index.js",
@@ -8,10 +8,10 @@
     "lib": "lib/"
   },
   "scripts": {
-    "build": "rm -rf lib && yarn run build:cjs && yarn run build:esm",
+    "build": "rm -rf lib && npm run build:cjs && npm run build:esm",
     "build:cjs": "babel src --out-dir lib",
     "build:esm": "cross-env BABEL_ENV=esm babel src --out-dir lib/esm",
-    "prepare": "yarn run build",
+    "prepare": "npm run build",
     "pretty": "prettier --write src/*.js ./*.js test/*.js",
     "lint": "eslint ./",
     "lint:fix": "eslint ./ --fix",
